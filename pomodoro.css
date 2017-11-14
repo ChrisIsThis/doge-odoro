@@ -1,0 +1,120 @@
+html {
+
+}
+
+body {
+  background: linear-gradient(to bottom right, #293265, #2e2f36);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Comfortaa, sans-serif;
+  color: white;
+}
+.col-centered, #work-add, #work-subtract, #break-add, #break-subtract {
+  float: none;
+  margin: 0 auto;
+}
+.btn {
+  margin: 3px;
+  width: 45px;
+  text-align: center;
+  box-shadow: 3px 3px 3px #40567a;
+  height: 45px;
+}
+#main {
+  width: 50%;
+  float: none;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+#title {
+  width: 100%;
+  height: auto;
+  padding-bottom: 8%;
+}
+#work-buttons, #break-buttons{
+  float: none;
+  margin: 0 auto;
+  width: 33%;
+  padding: 0px;
+}
+.start-div {
+  width: 100%;
+  float: none;
+  margin: 0 auto;
+}
+.start-div {
+  padding-top: 20px;
+}
+#countdown-div{
+  float: none;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 40px;
+}
+#pause, #plus-one, #work-start, #break-start, #minus-one {
+  width: 90px;
+  float: none;
+  margin: 0 auto;
+  box-shadow: 5px 5px 2px #2E2F36;
+}
+#pause, #plus-one, #minus-one {
+  background-color: #cbb100;
+  border-color: #cbb100;
+  color: white;
+  font-weight: bold;
+}
+
+#pause:hover, #plus-one:hover, #minus-one:hover {
+  background-color: #938000;
+  border-color: #938000;
+}
+
+#plus-one, #minus-one {
+  width: 45px;
+}
+
+.btn-primary {
+  background-color: #4d2ce0;
+  border-color: #4d2ce0;
+  font-weight: bold;
+}
+.btn-primary:hover {
+  background-color: #3921a5;
+  border-color: #3921a5;
+}
+
+#center {
+  padding-top: 20px;
+  width: 33%;
+  float: none;
+  margin: 0 auto;
+}
+#center-pic {
+  width: 180px;
+  height: auto;
+  float: none;
+  margin: 0 auto;
+  box-shadow: 5px 5px 2px #2E2F36;
+  border-radius: 50%;
+  display: block;
+  border-style: solid;
+  border-color: #cbb100;
+  border-width: 5px;
+}
+#quote {
+  padding-top: 10%;
+}
+.plus-minus-row {
+  padding-top: 12%;
+}
+.plus-minus-btns {
+  color: #cbb100;
+}
+#countdown-h2 {
+  font-size: 50pt;
+}
+#countdown-div.div {
+  max-width: 33%;
+}

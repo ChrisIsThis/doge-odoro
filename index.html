@@ -1,0 +1,70 @@
+<!doctype html>
+<head>
+  <title>Doge-odoro Timer</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel="stylesheet" type="text/css" href="pomodoro.css">
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+
+  <div id="main" class="col-centered row">
+    <div id="title">
+      <h1 class="text-center">doge-odoro timer</h1>
+    </div>
+    <!-- Work side -->
+    <div id="work-buttons" >
+      <h2 class="text-center">so bizniz</h2>
+      <div class="row plus-minus-row">
+        <h2 id="work-add" class="plus-minus-btns">+</h2>
+        <h1 id="work-time" class="text-center">20</h1>
+        <h2 id="work-subtract" class="plus-minus-btns">-</h2>
+      </div>
+      <div class="start-div row col-centered">
+        <button id="work-start" class="btn btn-primary">start</button>
+      </div>
+    </div>
+
+    <!--Center Image/ Text -->
+    <div id="center">
+      <img id="center-pic" src="https://i.imgur.com/YzBMXJj.png">
+      <h2 id="quote" class="text-center">werk time</h2>
+    </div>
+
+    <!-- Break side -->
+    <div id="break-buttons" >
+      <h2 class="text-center">much break</h2>
+      <div class="row col-centered plus-minus-row">
+        <h2 id="break-add" class="plus-minus-btns">+</h2>
+        <h1 id="break-time" class="text-center">5</h1>
+        <h2 id="break-subtract" class="plus-minus-btns">-</h2>
+      </div>
+      <div class="start-div row col-centered">
+        <button id="break-start" class="btn btn-primary col-centered">start</button>
+      </div>
+    </div>
+
+    <!-- Countdown -->
+    <div id="countdown-div" class="row col-centered">
+      <div class='col-centered'>
+        <button id="pause" class="btn btn-primary col-centered">paws</button>
+      </div>
+      <div class='col-centered'>
+        <h1 id="countdown-h2" class="text-center">0:00</h1>
+      </div>
+      <div class='col-centered'>
+        <button id="plus-one" class="btn btn-primary col-centered">+ 1</button>
+        <button id="minus-one" class="btn btn-primary col-centered">- 1</button>
+      </div>
+    </div>
+<br>
+    <div class="col-centered">
+      <p id="bottom-text" class="text-center">Many coding by <a href="https://github.com/ChrisIsThis/">Chris Swimmer, aka Raïe</a>. Amaze! Wow!</p>
+    </div>
+  </div> <!--end Main -->
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="pomodoro.js"></script>
+</body>
+</html>
